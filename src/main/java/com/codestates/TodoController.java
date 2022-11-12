@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TodoController {
 
-    // Gitflow 테스트
+    // Gitflow 테스트 2
     @GetMapping("/")
     public String helloWorld() {
         return "To-do Application!";
